@@ -1,0 +1,17 @@
+{
+  "name": "ai-story-video-studio",
+  "version": "1.0.0",
+  "description": "Full-stack AI Video-Generation Web Application for Fictional Stories & Characters",
+  "main": "server/src/index.ts",
+  "scripts": {
+    "install:all": "cmd /c \"npm install && cd server && npm install && cd ../client && npm install\"",
+    "dev:server": "cmd /c \"cd server && npm run dev\"",
+    "dev:client": "cmd /c \"cd client && npm run dev\"",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "cmd /c \"cd client && npm run build && cd ../server && npm run build\"",
+    "start": "cmd /c \"cd server && npm start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

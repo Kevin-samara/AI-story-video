@@ -1,0 +1,472 @@
+{
+  "projects": {
+    "sample-project-cat": {
+      "id": "sample-project-cat",
+      "title": "Cleo: The Executive Chef Cat",
+      "prompt": "Create a funny 60-second video about a lazy Egyptian cat who gets a job at a restaurant, gets into trouble with the chef, and eventually becomes the restaurant owner.",
+      "settings": {
+        "duration": 60,
+        "genre": "Comedy",
+        "visualStyle": "Pixar-like 3D",
+        "aspectRatio": "9:16",
+        "quality": "720p",
+        "lowCostMode": false
+      },
+      "status": "completed",
+      "progressStep": "Video generation completed successfully!",
+      "currentSceneIndex": 7,
+      "totalScenes": 7,
+      "createdAt": "2026-10-03T10:13:12.730Z",
+      "updatedAt": "2026-10-03T10:13:12.731Z"
+    },
+    "8155aeda-de92-45dc-b3af-831b33054977": {
+      "id": "8155aeda-de92-45dc-b3af-831b33054977",
+      "title": "Commander Ray: Sci-Fi Chronicles",
+      "prompt": "A normal delivery guy named Sam is riding his scooter through the city when his delivery app suddenly glitches. Instead of giving him a normal address, it says:\n\n\"Planet Mars — Building 7 — Apartment 404.\"\n\nHe thinks it's a joke… until a mysterious portal opens in front of him.\n\nHe accidentally drives through it and lands on Mars.\n\nHe walks into a futuristic apartment and says:\n\nSam: \"Delivery for… Ahmed?\"\n\nA huge alien opens the door.\n\nAlien: \"You are 47 minutes late.\"\n\nSam looks at his phone.\n\nSam: \"Traffic.\"\n\nSuddenly, several alien police officers appear behind him because interplanetary delivery without a permit is illegal.\n\nSam jumps back onto his scooter and escapes across Mars while aliens chase him.\n\nAt the end, he finally reaches the portal and returns to Earth.\n\nHis phone immediately shows:\n\n\"New Delivery: Moon — Building 3.\"\n\nSam looks at the camera:\n\nSam: \"I'm quitting.\"\n\nEND. 😂\n",
+      "settings": {
+        "duration": 60,
+        "genre": "Auto-Detect",
+        "visualStyle": "Auto-Detect",
+        "aspectRatio": "9:16",
+        "quality": "720p",
+        "lowCostMode": false
+      },
+      "status": "plan_ready",
+      "progressStep": "Plan Created",
+      "currentSceneIndex": 0,
+      "totalScenes": 7,
+      "storyPlan": {
+        "title": "Commander Ray: Sci-Fi Chronicles",
+        "genre": "Sci-Fi",
+        "duration": 60,
+        "aspectRatio": "9:16",
+        "visualStyle": "Cyberpunk",
+        "voiceStyle": "Calm authoritative voice",
+        "musicStyle": "Sci-Fi orchestral soundtrack with ambient synths",
+        "characters": [
+          {
+            "id": "4b6ce9ca-d3e2-48e8-b082-fb857787266f",
+            "name": "Commander Ray",
+            "age": "34 years old",
+            "gender": "Male",
+            "appearance": "Rugged astronaut with stubble and athletic build",
+            "clothing": "High-tech white and orange EVA space suit with glowing visor",
+            "personality": "Brave, resourceful leader",
+            "voice": "Calm authoritative voice",
+            "description": "Stranded astronaut on Mars discovering ancient underground ruins."
+          },
+          {
+            "id": "80db3c7d-c99d-4db8-82dd-afaf7a7ce013",
+            "name": "Dr. Elena Vance",
+            "age": "31 years old",
+            "gender": "Female",
+            "appearance": "Sharp brilliant astrobiologist with ponytail",
+            "clothing": "Futuristic research jumpsuit",
+            "personality": "Analytical, curious",
+            "voice": "Intelligent articulate voice",
+            "description": "Co-pilot scientist analyzing Martian bio-signatures."
+          }
+        ],
+        "locations": [
+          "Rain-slicked Abandoned Hotel Entrance",
+          "Grand Lobby with Broken Chandelier",
+          "Second Floor Hallway",
+          "Hidden Basement Laboratory",
+          "Central Core Room",
+          "Control Console",
+          "Rooftop Helipad under Starry Night"
+        ],
+        "scenes": [
+          {
+            "sceneNumber": 1,
+            "duration": 8,
+            "startTime": 0,
+            "endTime": 8,
+            "location": "Rain-slicked Abandoned Hotel Entrance",
+            "characters": [
+              "Commander Ray"
+            ],
+            "action": "Commander Ray approaches the rusty gates of the forgotten structure as fog rolls in.",
+            "dialogue": {
+              "character": "Commander Ray",
+              "text": "The reports said no one has stepped foot inside here for 30 years..."
+            },
+            "cameraMovement": "Low-angle slow tracking shot moving forward",
+            "cameraAngle": "Low angle",
+            "lighting": "Cold blue moonlight cutting through dense fog",
+            "atmosphere": "Sci-Fi",
+            "visualPrompt": "Cyberpunk style, Rain-slicked Abandoned Hotel Entrance, Commander Ray approaches the rusty gates of the forgotten structure as fog rolls in., Commander Ray, Cold blue moonlight cutting through dense fog, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Thunder rumble, distant creaking gates",
+            "transition": "Dissolve",
+            "status": "pending"
+          },
+          {
+            "sceneNumber": 2,
+            "duration": 8,
+            "startTime": 8,
+            "endTime": 16,
+            "location": "Grand Lobby with Broken Chandelier",
+            "characters": [
+              "Commander Ray"
+            ],
+            "action": "Commander Ray pushes open the heavy oak doors, click-on flashlight revealing dust motes.",
+            "dialogue": {
+              "character": "Commander Ray",
+              "text": "Something happened here... something they tried to cover up."
+            },
+            "cameraMovement": "Over-the-shoulder tracking shot",
+            "cameraAngle": "Eye level",
+            "lighting": "Single beam flashlight beam illuminating dark corridors",
+            "atmosphere": "Sci-Fi",
+            "visualPrompt": "Cyberpunk style, Grand Lobby with Broken Chandelier, Commander Ray pushes open the heavy oak doors, click-on flashlight revealing dust motes., Commander Ray, Single beam flashlight beam illuminating dark corridors, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Echoing footsteps, heavy door groan",
+            "transition": "Dissolve",
+            "status": "pending"
+          },
+          {
+            "sceneNumber": 3,
+            "duration": 9,
+            "startTime": 16,
+            "endTime": 25,
+            "location": "Second Floor Hallway",
+            "characters": [
+              "Commander Ray"
+            ],
+            "action": "Commander Ray stops outside Room 404, noticing strange glowing symbols etched into the wood.",
+            "dialogue": {
+              "character": "Commander Ray",
+              "text": "These markings... they aren't ancient. They were carved recently!"
+            },
+            "cameraMovement": "Close-up on glowing glyphs and character's suspicious gaze",
+            "cameraAngle": "Low angle",
+            "lighting": "Mysterious amber glow emanating from door frame",
+            "atmosphere": "Sci-Fi",
+            "visualPrompt": "Cyberpunk style, Second Floor Hallway, Commander Ray stops outside Room 404, noticing strange glowing symbols etched into the wood., Commander Ray, Mysterious amber glow emanating from door frame, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Low ambient hum, heartbeats",
+            "transition": "Dissolve",
+            "status": "pending"
+          },
+          {
+            "sceneNumber": 4,
+            "duration": 10,
+            "startTime": 25,
+            "endTime": 35,
+            "location": "Hidden Basement Laboratory",
+            "characters": [
+              "Commander Ray"
+            ],
+            "action": "Commander Ray steps into a secret chamber filled with glowing quantum artifacts.",
+            "dialogue": {
+              "character": "Commander Ray",
+              "text": "It wasn't a hotel... it was a research facility hidden in plain sight."
+            },
+            "cameraMovement": "Dramatic pan revealing expansive underground futuristic chamber",
+            "cameraAngle": "Eye level",
+            "lighting": "Electric cyan ambient light from glowing energy pods",
+            "atmosphere": "Sci-Fi",
+            "visualPrompt": "Cyberpunk style, Hidden Basement Laboratory, Commander Ray steps into a secret chamber filled with glowing quantum artifacts., Commander Ray, Electric cyan ambient light from glowing energy pods, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Pulsing energy hum, computer data bleeps",
+            "transition": "Dissolve",
+            "status": "pending"
+          },
+          {
+            "sceneNumber": 5,
+            "duration": 10,
+            "startTime": 35,
+            "endTime": 45,
+            "location": "Central Core Room",
+            "characters": [
+              "Commander Ray"
+            ],
+            "action": "A shadowy figure emerges from the fog behind the energy reactor console!",
+            "dialogue": {
+              "character": "Commander Ray",
+              "text": "Show yourself! Who are you?"
+            },
+            "cameraMovement": "Rapid zoom-in on mysterious shadow silhouette",
+            "cameraAngle": "Eye level",
+            "lighting": "Fashing red emergency alarms with rim lighting",
+            "atmosphere": "Sci-Fi",
+            "visualPrompt": "Cyberpunk style, Central Core Room, A shadowy figure emerges from the fog behind the energy reactor console!, Commander Ray, Fashing red emergency alarms with rim lighting, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Alarm siren sound, dramatic brass crescendo",
+            "transition": "Dissolve",
+            "status": "pending"
+          },
+          {
+            "sceneNumber": 6,
+            "duration": 8,
+            "startTime": 45,
+            "endTime": 53,
+            "location": "Control Console",
+            "characters": [
+              "Commander Ray"
+            ],
+            "action": "Commander Ray retrieves a glowing memory core revealing secret blueprints.",
+            "dialogue": {
+              "character": "Commander Ray",
+              "text": "This changes everything we knew about the past..."
+            },
+            "cameraMovement": "High-angle orbit camera around character holding artifact",
+            "cameraAngle": "Eye level",
+            "lighting": "Bright blue holographic light reflecting on face",
+            "atmosphere": "Sci-Fi",
+            "visualPrompt": "Cyberpunk style, Control Console, Commander Ray retrieves a glowing memory core revealing secret blueprints., Commander Ray, Bright blue holographic light reflecting on face, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Hologram hum, crisp electronic tone",
+            "transition": "Dissolve",
+            "status": "pending"
+          },
+          {
+            "sceneNumber": 7,
+            "duration": 7,
+            "startTime": 53,
+            "endTime": 60,
+            "location": "Rooftop Helipad under Starry Night",
+            "characters": [
+              "Commander Ray"
+            ],
+            "action": "Commander Ray reaches the rooftop looking down at the illuminated city skyline.",
+            "dialogue": {
+              "character": "Commander Ray",
+              "text": "The truth is finally out. Now the real mission begins."
+            },
+            "cameraMovement": "Cinematic wide shot sweeping up into night sky",
+            "cameraAngle": "Eye level",
+            "lighting": "City neon skyline glow with starry night contrast",
+            "atmosphere": "Sci-Fi",
+            "visualPrompt": "Cyberpunk style, Rooftop Helipad under Starry Night, Commander Ray reaches the rooftop looking down at the illuminated city skyline., Commander Ray, City neon skyline glow with starry night contrast, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Helicopter rotor blades, epic cinematic orchestral finish",
+            "transition": "Fade to black",
+            "status": "pending"
+          }
+        ],
+        "rawPrompt": "A normal delivery guy named Sam is riding his scooter through the city when his delivery app suddenly glitches. Instead of giving him a normal address, it says:\n\n\"Planet Mars — Building 7 — Apartment 404.\"\n\nHe thinks it's a joke… until a mysterious portal opens in front of him.\n\nHe accidentally drives through it and lands on Mars.\n\nHe walks into a futuristic apartment and says:\n\nSam: \"Delivery for… Ahmed?\"\n\nA huge alien opens the door.\n\nAlien: \"You are 47 minutes late.\"\n\nSam looks at his phone.\n\nSam: \"Traffic.\"\n\nSuddenly, several alien police officers appear behind him because interplanetary delivery without a permit is illegal.\n\nSam jumps back onto his scooter and escapes across Mars while aliens chase him.\n\nAt the end, he finally reaches the portal and returns to Earth.\n\nHis phone immediately shows:\n\n\"New Delivery: Moon — Building 3.\"\n\nSam looks at the camera:\n\nSam: \"I'm quitting.\"\n\nEND. 😂\n"
+      },
+      "createdAt": "2026-10-03T10:48:39.168Z",
+      "updatedAt": "2026-10-03T10:48:39.168Z"
+    },
+    "bca2332e-3fd3-4fcd-9c48-93fd025b5b7a": {
+      "id": "bca2332e-3fd3-4fcd-9c48-93fd025b5b7a",
+      "title": "Alex Vance: Drama Chronicles",
+      "prompt": "no",
+      "settings": {
+        "duration": 60,
+        "genre": "Auto-Detect",
+        "visualStyle": "Auto-Detect",
+        "aspectRatio": "9:16",
+        "quality": "720p",
+        "lowCostMode": false
+      },
+      "status": "plan_ready",
+      "progressStep": "Plan Created",
+      "currentSceneIndex": 0,
+      "totalScenes": 7,
+      "storyPlan": {
+        "title": "Alex Vance: Drama Chronicles",
+        "genre": "Drama",
+        "duration": 60,
+        "aspectRatio": "9:16",
+        "visualStyle": "Cinematic",
+        "voiceStyle": "Clear confident male voice",
+        "musicStyle": "Drama orchestral soundtrack with ambient synths",
+        "characters": [
+          {
+            "id": "8de3f0b8-ee70-49db-84ce-b4a10997e28f",
+            "name": "Alex Vance",
+            "age": "25 years old",
+            "gender": "Male",
+            "appearance": "Stylish protagonist with expressive features",
+            "clothing": "Modern tailored jacket",
+            "personality": "Determined, adventurous",
+            "voice": "Clear confident male voice",
+            "description": "Protagonist of the story facing unexpected challenges."
+          }
+        ],
+        "locations": [
+          "Rain-slicked Abandoned Hotel Entrance",
+          "Grand Lobby with Broken Chandelier",
+          "Second Floor Hallway",
+          "Hidden Basement Laboratory",
+          "Central Core Room",
+          "Control Console",
+          "Rooftop Helipad under Starry Night"
+        ],
+        "scenes": [
+          {
+            "sceneNumber": 1,
+            "duration": 8,
+            "startTime": 0,
+            "endTime": 8,
+            "location": "Rain-slicked Abandoned Hotel Entrance",
+            "characters": [
+              "Alex Vance"
+            ],
+            "action": "Alex Vance approaches the rusty gates of the forgotten structure as fog rolls in.",
+            "dialogue": {
+              "character": "Alex Vance",
+              "text": "The reports said no one has stepped foot inside here for 30 years..."
+            },
+            "cameraMovement": "Low-angle slow tracking shot moving forward",
+            "cameraAngle": "Low angle",
+            "lighting": "Cold blue moonlight cutting through dense fog",
+            "atmosphere": "Drama",
+            "visualPrompt": "Cinematic style, Rain-slicked Abandoned Hotel Entrance, Alex Vance approaches the rusty gates of the forgotten structure as fog rolls in., Alex Vance, Cold blue moonlight cutting through dense fog, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Thunder rumble, distant creaking gates",
+            "transition": "Dissolve",
+            "status": "pending"
+          },
+          {
+            "sceneNumber": 2,
+            "duration": 8,
+            "startTime": 8,
+            "endTime": 16,
+            "location": "Grand Lobby with Broken Chandelier",
+            "characters": [
+              "Alex Vance"
+            ],
+            "action": "Alex Vance pushes open the heavy oak doors, click-on flashlight revealing dust motes.",
+            "dialogue": {
+              "character": "Alex Vance",
+              "text": "Something happened here... something they tried to cover up."
+            },
+            "cameraMovement": "Over-the-shoulder tracking shot",
+            "cameraAngle": "Eye level",
+            "lighting": "Single beam flashlight beam illuminating dark corridors",
+            "atmosphere": "Drama",
+            "visualPrompt": "Cinematic style, Grand Lobby with Broken Chandelier, Alex Vance pushes open the heavy oak doors, click-on flashlight revealing dust motes., Alex Vance, Single beam flashlight beam illuminating dark corridors, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Echoing footsteps, heavy door groan",
+            "transition": "Dissolve",
+            "status": "pending"
+          },
+          {
+            "sceneNumber": 3,
+            "duration": 9,
+            "startTime": 16,
+            "endTime": 25,
+            "location": "Second Floor Hallway",
+            "characters": [
+              "Alex Vance"
+            ],
+            "action": "Alex Vance stops outside Room 404, noticing strange glowing symbols etched into the wood.",
+            "dialogue": {
+              "character": "Alex Vance",
+              "text": "These markings... they aren't ancient. They were carved recently!"
+            },
+            "cameraMovement": "Close-up on glowing glyphs and character's suspicious gaze",
+            "cameraAngle": "Low angle",
+            "lighting": "Mysterious amber glow emanating from door frame",
+            "atmosphere": "Drama",
+            "visualPrompt": "Cinematic style, Second Floor Hallway, Alex Vance stops outside Room 404, noticing strange glowing symbols etched into the wood., Alex Vance, Mysterious amber glow emanating from door frame, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Low ambient hum, heartbeats",
+            "transition": "Dissolve",
+            "status": "pending"
+          },
+          {
+            "sceneNumber": 4,
+            "duration": 10,
+            "startTime": 25,
+            "endTime": 35,
+            "location": "Hidden Basement Laboratory",
+            "characters": [
+              "Alex Vance"
+            ],
+            "action": "Alex Vance steps into a secret chamber filled with glowing quantum artifacts.",
+            "dialogue": {
+              "character": "Alex Vance",
+              "text": "It wasn't a hotel... it was a research facility hidden in plain sight."
+            },
+            "cameraMovement": "Dramatic pan revealing expansive underground futuristic chamber",
+            "cameraAngle": "Eye level",
+            "lighting": "Electric cyan ambient light from glowing energy pods",
+            "atmosphere": "Drama",
+            "visualPrompt": "Cinematic style, Hidden Basement Laboratory, Alex Vance steps into a secret chamber filled with glowing quantum artifacts., Alex Vance, Electric cyan ambient light from glowing energy pods, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Pulsing energy hum, computer data bleeps",
+            "transition": "Dissolve",
+            "status": "pending"
+          },
+          {
+            "sceneNumber": 5,
+            "duration": 10,
+            "startTime": 35,
+            "endTime": 45,
+            "location": "Central Core Room",
+            "characters": [
+              "Alex Vance"
+            ],
+            "action": "A shadowy figure emerges from the fog behind the energy reactor console!",
+            "dialogue": {
+              "character": "Alex Vance",
+              "text": "Show yourself! Who are you?"
+            },
+            "cameraMovement": "Rapid zoom-in on mysterious shadow silhouette",
+            "cameraAngle": "Eye level",
+            "lighting": "Fashing red emergency alarms with rim lighting",
+            "atmosphere": "Drama",
+            "visualPrompt": "Cinematic style, Central Core Room, A shadowy figure emerges from the fog behind the energy reactor console!, Alex Vance, Fashing red emergency alarms with rim lighting, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Alarm siren sound, dramatic brass crescendo",
+            "transition": "Dissolve",
+            "status": "pending"
+          },
+          {
+            "sceneNumber": 6,
+            "duration": 8,
+            "startTime": 45,
+            "endTime": 53,
+            "location": "Control Console",
+            "characters": [
+              "Alex Vance"
+            ],
+            "action": "Alex Vance retrieves a glowing memory core revealing secret blueprints.",
+            "dialogue": {
+              "character": "Alex Vance",
+              "text": "This changes everything we knew about the past..."
+            },
+            "cameraMovement": "High-angle orbit camera around character holding artifact",
+            "cameraAngle": "Eye level",
+            "lighting": "Bright blue holographic light reflecting on face",
+            "atmosphere": "Drama",
+            "visualPrompt": "Cinematic style, Control Console, Alex Vance retrieves a glowing memory core revealing secret blueprints., Alex Vance, Bright blue holographic light reflecting on face, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Hologram hum, crisp electronic tone",
+            "transition": "Dissolve",
+            "status": "pending"
+          },
+          {
+            "sceneNumber": 7,
+            "duration": 7,
+            "startTime": 53,
+            "endTime": 60,
+            "location": "Rooftop Helipad under Starry Night",
+            "characters": [
+              "Alex Vance"
+            ],
+            "action": "Alex Vance reaches the rooftop looking down at the illuminated city skyline.",
+            "dialogue": {
+              "character": "Alex Vance",
+              "text": "The truth is finally out. Now the real mission begins."
+            },
+            "cameraMovement": "Cinematic wide shot sweeping up into night sky",
+            "cameraAngle": "Eye level",
+            "lighting": "City neon skyline glow with starry night contrast",
+            "atmosphere": "Drama",
+            "visualPrompt": "Cinematic style, Rooftop Helipad under Starry Night, Alex Vance reaches the rooftop looking down at the illuminated city skyline., Alex Vance, City neon skyline glow with starry night contrast, high detail, 8k resolution, cinematic composition, award winning scene",
+            "audioPrompt": "Helicopter rotor blades, epic cinematic orchestral finish",
+            "transition": "Fade to black",
+            "status": "pending"
+          }
+        ],
+        "rawPrompt": "no"
+      },
+      "createdAt": "2026-10-03T10:49:14.327Z",
+      "updatedAt": "2026-10-03T10:49:14.327Z"
+    }
+  },
+  "characters": {},
+  "settings": {
+    "llmProvider": "auto",
+    "imageProvider": "pollinations",
+    "videoProvider": "canvas-ffmpeg",
+    "voiceProvider": "web-tts",
+    "storageProvider": "local",
+    "lowCostMode": false,
+    "defaultQuality": "720p"
+  }
+}
